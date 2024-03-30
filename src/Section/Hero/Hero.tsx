@@ -1,4 +1,6 @@
 import Banner from "../../assets/banner-1.jpg";
+import { IoStarSharp } from "react-icons/io5";
+import "./Hero.scss";
 
 const Hero = () => {
   return (
@@ -24,10 +26,18 @@ const Hero = () => {
                     Aperiam quis officiis consectetur dolores excepturi tenetur
                     laborum corrupti repellendus, atque doloremque?
                   </p>
-                  <div className="mt-5">
-                    <button className="text-sm font-semibold p-2 pr-5 pl-5 leading-6 text-white bg-[#11bd6b] rounded-3xl">
+                  <div className="mt-5 flex">
+                    <button className="text-sm font-semibold p-2 pr-5 pl-5 leading-6 text-white bg-[#11bd6b] rounded-3xl mr-10">
                       Sign up for Free
                     </button>
+                    <div className="flex text-yellow-600 py-2">
+                      <IoStarSharp />
+                      <IoStarSharp />
+                      <IoStarSharp />
+                      <IoStarSharp />
+                      <IoStarSharp />
+                      <span className="ml-5 text-black font-bold">5.0</span>
+                    </div>
                   </div>
                 </div>
               </div>
