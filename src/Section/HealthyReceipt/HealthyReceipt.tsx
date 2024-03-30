@@ -1,4 +1,5 @@
 import Banner from "../../assets/banner-2.jpg";
+import "./HealthyReceipt.scss";
 import { FaCheckCircle } from "react-icons/fa";
 
 const HealthyReceipt = () => {
