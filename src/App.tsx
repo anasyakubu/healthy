@@ -1,3 +1,4 @@
+import "./App.scss";
 import Nav from "./components/shared/Nav";
 import Hero from "./Section/Hero/Hero";
 import LogoClouds from "./Section/LogoClouds/LogoClouds";
@@ -8,7 +9,7 @@ import Join from "./Section/Join/Join";
 const App = () => {
   return (
     <>
-      <div className="">
+      <div className="App">
         <Nav />
         <Hero />
         <LogoClouds />
