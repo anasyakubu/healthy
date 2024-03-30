@@ -6,6 +6,7 @@ import HealthyReceipt from "./Section/HealthyReceipt/HealthyReceipt";
 import Stats from "./Section/Stats/Stats";
 import FitDiet from "./Section/FitDiet/FitDiet";
 import Join from "./Section/Join/Join";
+import Footer from "./Section/Footer/Footer";
 const App = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const App = () => {
         <LogoClouds />
         <FitDiet />
         <Join />
+        <Footer />
       </div>
     </>
   );
